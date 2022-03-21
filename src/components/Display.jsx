@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 const StyledDisplay = styled.section`
+  position: relative;
   justify-content: space-between;
   align-items: center;
   flex-direction: column;
@@ -17,7 +18,7 @@ const StyledDisplay = styled.section`
 
   background-color: rgb(35, 45, 105);
 
-  h1 {
+  h2 {
     font-size: 14px;
     font-weight: 400;
 
@@ -80,7 +81,7 @@ const StyledDisplay = styled.section`
 
   aside {
     position: absolute;
-    bottom: 129px;
+    top: 127px;
     justify-content: center;
     align-items: center;
 
@@ -107,6 +108,43 @@ const StyledDisplay = styled.section`
       color: rgba(25, 18, 44, 0.5);
     }
   }
+
+  @media screen and (min-width: 1440px) {
+    position: relative;
+    top: 21px;
+
+    width: 540px;
+
+    h2 {
+      position: relative;
+      left: -113px;
+    }
+
+    section {
+      progress {
+        width: 460px;
+      }
+    }
+
+    aside {
+      position: absolute;
+      top: -52px;
+      right: 38px;
+
+      &::after {
+        content: '';
+
+        position: absolute;
+        top: 62px;
+        right: 0px;
+
+        width: 0;
+        height: 0;
+        border-left: 32px solid transparent;
+        border-top: 32px solid #ffffff;
+      }
+    }
+  }
 `;
 
 export default function Display() {
@@ -115,9 +153,9 @@ export default function Display() {
 
   return (
     <StyledDisplay>
-      <h1>
+      <h2>
         You've used <span>{`${dataUsed} GB`}</span> of your storage
-      </h1>
+      </h2>
       <section>
         <progress max={dataPlan} value={dataUsed} />
         <article>
