@@ -45,6 +45,9 @@ const StyledControls = styled.section`
   @media screen and (min-width: 1440px) {
     margin-bottom: 0;
     margin-right: 30px;
+
+    width: 350px;
+    height: 201px;
   }
 `;
 
