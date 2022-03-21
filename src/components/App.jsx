@@ -1,6 +1,7 @@
 import { createGlobalStyle } from 'styled-components';
 import styled from 'styled-components';
 import Controls from './Controls';
+import Display from './Display';
 
 const GlobalStyle = createGlobalStyle`
   * {
@@ -34,6 +35,7 @@ export default function App() {
       <GlobalStyle />
       <StyledApp>
         <Controls />
+        <Display />
       </StyledApp>
     </>
   );
