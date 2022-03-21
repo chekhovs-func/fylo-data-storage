@@ -27,6 +27,15 @@ const StyledApp = styled.main`
   background-image: url('assets/bg-mobile.png');
   background-size: 100vw 100vh;
   background-repeat: no-repeat;
+
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+
+    background-image: url('assets/bg-desktop.png');
+    background-size: 100vw 35vw;
+    background-position: 0px 50vh;
+    background-repeat: no-repeat;
+  }
 `;
 
 export default function App() {
