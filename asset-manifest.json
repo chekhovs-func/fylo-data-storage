@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.js": "/fylo-data-storage/static/js/main.7ae10c60.js",
+    "static/media/logo.svg": "/fylo-data-storage/static/media/logo.1117cfab9172ec8444e8ea6d7e409c1f.svg",
+    "index.html": "/fylo-data-storage/index.html",
+    "static/media/icon-document.svg": "/fylo-data-storage/static/media/icon-document.ef36d7c56ceb446d48696937b50c9c32.svg",
+    "static/media/icon-upload.svg": "/fylo-data-storage/static/media/icon-upload.f8bd567a54f93b653c23df955f830a79.svg",
+    "static/media/icon-folder.svg": "/fylo-data-storage/static/media/icon-folder.ca59d3457d6721d1ef57847d468786cc.svg",
+    "main.7ae10c60.js.map": "/fylo-data-storage/static/js/main.7ae10c60.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.7ae10c60.js"
+  ]
+}
