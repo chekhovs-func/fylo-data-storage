@@ -21,14 +21,16 @@ const StyledApp = styled.main`
   font-family: 'Raleway', sans-serif;
 
   background-color: #0c122c;
+  background-image: url('assets/bg-mobile.png');
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
 `;
 
 export default function App() {
   return (
     <>
       <GlobalStyle />
-      <StyledApp>
-      </StyledApp>
+      <StyledApp></StyledApp>
     </>
   );
 }
